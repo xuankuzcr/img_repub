@@ -1,0 +1,6 @@
+<launch>
+    <param name="camera_topic_in"  type="string" value="/camera/image_color" /> 
+    <param name="camera_topic_out"  type="string" value="/camera/image_color_repub" /> 
+    <param name="scale" type="double" value="0.5" />
+    <node pkg="img_repub" type="img_repub" name="img_repub"  output="screen"/>   
+</launch>

@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/chunran/catkin_ws/devel/include/**",
+        "/home/chunran/lic_ws/devel/include/**",
+        "/home/chunran/livox_ws/devel/include/**",
+        "/opt/ros/kinetic/include/**",
+        "/home/chunran/catkin_ws/src/livox_high_precision_mapping/gnss_module/apx15/include/**",
+        "/home/chunran/lic_ws/src/lic_fusion/vins/camera_model/include/**",
+        "/home/chunran/catkin_ws/src/livox_high_precision_mapping/gnss_module/serial/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}
