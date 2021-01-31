@@ -57,7 +57,7 @@ int main(int argc, char **argv)
   pub = it.advertise(camera_topic_out, 1);
   ros::Rate loop_rate(5);
 
-  while(ros::ok)
+  while(ros::ok())
   {   
     //ros::Time time = ros::Time::now();
      
